@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    
+    <title>Lauren Lizardo</title>
+    
+    <link rel="stylesheet" href="stylesheet.css">
+    
+    <style>
+    
+        #content {
+            max-width: 900px;
+            min-width: 550px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 0px;
+        }
+        
+        img {
+            border-radius: 0px;
+        }
+        
+        .title-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        ul {
+            text-align: left;
+        }
+    
+    </style>
+    
+    
+</head>
+<body>
+    
+    <header>
+    
+        <a href="index.html"><h1 id="heading">Lauren Lizardo // Game Developer</h1></a>
+        
+    
+        <ul class="navbar">
+            <li class="navbar-li"><a href="work.html" target="_self">Work</a></li>
+            <li class="navbar-li"><a href="about.html" target="_self">About</a></li>
+            <li class="navbar-li"><a href="contact.html" target="_self">Contact</a></li>
+        </ul>
+        
+    </header>
+    
+    <section id="content">
+        
+        <div id="work">
+    
+            <img class= "title-img" src="images/work/blown_away/game-logo-blown-away%20(1).png" alt="Blown Away Logo" width=100%>
+            
+            <div class="grid-container-work-img">
+                <div><img src="images/work/blown_away/blown-away-01.gif" width=100% alt="Blown Away sample gif"></div>
+                <div><img src="images/work/blown_away/blown-away-02.gif" width=100% alt="Blown Away sample gif"></div>
+                <div><img src="images/work/blown_away/blown-away-03.gif" width=100% alt="Blown Away sample gif"></div>
+            </div>
+            
+            <div class="grid-container-work-text">
+                <div><h4>Downloads</h4>
+                    <a href="https://apps.apple.com/bm/app/selfie-arcade-blown-away/id1476455956" target="_blank"><img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred_2x.png" width="75%"></a><br>
+                    <a href="https://play.google.com/store/apps/details?id=co.wnkinc.wnk" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1280px-Google_Play_Store_badge_EN.svg.png" width="75%"></a>
+                    <h4>Details</h4>
+                    <p class="work-headings">COMPANY</p><p class="work-text">WNK Inc.</p><br>
+                    <p class="work-headings">PLATFORMS</p><p class="work-text">iOS, Android</p><br>
+                    <p class="work-headings">DURATION</p><p class="work-text">4 months</p><br>
+                    <p class="work-headings">TEAM SIZE</p><p class="work-text">3</p><br>
+                    <p class="work-headings">ROLE</p><p class="work-text">Gameplay Engineer</p><br>
+                    </div>
+                <div><h4>Overview</h4>
+                    <p class="work-text">Blown Away is an AR face-tracking game that replaces the user’s face with that of a pufferfish! By controlling the pufferfish using facial expressions, users can blow away the various sea creatures that swim by. Higher points are rewarded if the same kind of sea creature is targeted twice or three times in a row!</p>
+                    <h4>Reponsibilities</h4>
+                    <ul>
+                        <li>Iterated on UX design to solve problems surrounding the user’s ability to estimate depth in AR</li>
+                        <li>Utilized the in-house face-tracking API built on top of the ARKit and ARCore frameworks to prototype an inhale/exhale game based on the formations of the user’s mouth</li>
+                        <li>Manipulated character blendshape values so that gameplay events conveyed proper facial expressions and behaviors</li>
+                        <li>Created a sea creature base class that defined and executed general movement capabilities and physics behaviors</li>
+                        <li>Modified the derived sea creature classes so that each character was visually and behaviorally distinct from one another</li>
+                        <li>Implemented game systems such as a Match 3 scoring system and an item unlocking system to be used by all company projects</li>
+                        <li>Integrated Unity notifications and AppsFlyer ad banners</li>
+                    </ul>
+                </div>
+            </div>
+        
+        </div>
+    
+    </section>
+    
+    <footer>
+        
+        <p>Copyright &#169; 2021 Lauren Lizardo. All rights reserved.</p>
+    
+    </footer>
+    
+</body>
+</html>

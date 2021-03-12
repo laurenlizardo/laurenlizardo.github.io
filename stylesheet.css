@@ -1,0 +1,238 @@
+/* styled in individual pages
+body {
+    max-width: 700px;
+    min-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 550px;
+}*/
+
+
+/*Index Page / Global edits*/
+body {
+    margin: 0;
+}
+
+h1, .titles, h3 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+#gametext {
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 10px;
+    font-size: 1.75em;
+}
+
+img {
+    display: inline;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 15px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 0px;
+}
+
+/*Work Page*/
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F4F4;
+        /*rgba(228, 230, 235, .5);*/
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    width: 100%;
+    position: fixed;
+}
+
+
+#heading {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.navbar {
+    list-style: none;
+    text-align: right;
+    margin: 0px;
+    padding-top: 10px;
+    padding-right: 35px; 
+    padding-left: 10px;
+}
+
+.navbar-li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    display: inline-block;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    /*padding: 10px;*/
+}
+
+a:hover {
+    color: #FF6600;
+    opacity: .8;
+}
+
+/*Work Page - Professional, GGJ, other*/
+
+#professional {
+    padding-top: 200px;
+}
+
+#ggj, #other-work {
+    padding-top: 125px;
+}
+
+#professional, #ggj {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+}
+
+.titles {
+    padding-left: 5px;
+}
+
+.descriptions {
+    font-size: 13px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    text-align: left;
+}
+
+.captions {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+    /*font-size: 1.6vw;*/
+}
+
+
+/*About Page*/
+
+#about-text {
+    display: inline;
+}
+
+.about-name {
+    font-size: 2em;
+}
+
+.about-gd {
+    font-size: 1em;
+}
+
+.about-text {
+    font-size: 14px;
+    text-align: justify;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 70px;
+    padding-top: 200px;
+    padding-bottom: 125px;
+    text-align: left;
+}
+
+
+/*Work Page*/
+
+#work {
+    padding-top: 75px;
+}
+
+.grid-container-work-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid-container-work-text {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.work-headings {
+    font-size: .7em;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.work-text {
+    font-size: 14px;
+}
+
+ul {
+    margin-left: 20px;
+    padding-right: 5px; 
+    padding-left: 10px;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-bottom: 5px;
+}
+
+
+footer {
+    text-align: center;
+    font-size: .8em;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
